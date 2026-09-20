@@ -10,7 +10,7 @@ export default function App() {
         <a
           href="https://github.com/Laux0/react-app-final-project"
           target="_blank"
-          rel="moreferrer"
+          rel="noreferrer"
         >
           Github.
         </a>
