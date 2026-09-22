@@ -13,6 +13,7 @@ export default function Weather() {
       city: response.data.city,
       humidity: response.data.temperature.humidity,
       description: response.data.condition.description,
+      icon: response.data.condition.icon_url,
     });
     setReady(true);
   }
@@ -43,8 +44,8 @@ export default function Weather() {
           <div className="row">
             <div className="col-6">
               <img
-                src="https://ssl.gstatic.com/onebox/weather/64/partly_cloudy.png"
-                alt="cloudy icon"
+                src={weatherData.icon}
+                alt={weatherData.description}
                 className="today-icon"
               />
               <span className="main-temperature">
@@ -54,7 +55,9 @@ export default function Weather() {
             </div>
             <div className="col-6">
               <ul>
-                <li>Weather Details:</li>
+                <li>
+                  <strong>Weather Details</strong>:
+                </li>
                 <li>Humidity {weatherData.humidity}%</li>
                 <li>Wind {weatherData.wind}km/h</li>
               </ul>

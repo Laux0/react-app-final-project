@@ -11,6 +11,10 @@
   color: gray;
 }
 
+.Forecast h1 {
+  font-weight: bold;
+}
+
 .Forecast ul {
   margin: 0;
   padding: 0;
@@ -24,7 +28,7 @@
   height: 64px;
   display: inline-flex;
   margin-bottom: 30px;
-  margin-top: 13px;
+  margin-top: 12px;
 }
 
 .Forecast .main-temperature {
