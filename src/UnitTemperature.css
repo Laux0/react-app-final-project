@@ -1,0 +1,14 @@
+.current-value {
+  display: inline-flex;
+}
+
+.main-temperature {
+  font-weight: bold;
+  font-size: 48px;
+}
+
+.unit {
+  font-size: 28px;
+  position: relative;
+  top: 10px;
+}

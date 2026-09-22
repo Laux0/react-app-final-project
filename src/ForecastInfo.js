@@ -1,6 +1,7 @@
 import React from "react";
 import FormattedDate from "./FormattedDate.js";
 import "./ForecastInfo.css";
+import UnitTemperature from "./UnitTemperature.js";
 
 export default function ForecastInfo(props) {
   return (
@@ -19,10 +20,7 @@ export default function ForecastInfo(props) {
             alt={props.data.description}
             className="today-icon"
           />
-          <span className="main-temperature">
-            {Math.round(props.data.temperature)}
-          </span>
-          <span className="unit">°C</span>
+          <UnitTemperature UnitTemp={props.data.temperature} />
         </div>
         <div className="col-6">
           <ul>
