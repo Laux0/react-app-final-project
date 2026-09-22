@@ -7,7 +7,7 @@ export default function App() {
   return (
     <div className="App">
       <h1>React Weather App</h1>
-      <Weather />
+      <Weather defaultCity="Bangkok" />
       <footer>
         This project was coded by Laura Rahmati and is open-sourced on {""}
         <a
