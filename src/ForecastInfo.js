@@ -1,5 +1,6 @@
 import React from "react";
 import FormattedDate from "./FormattedDate.js";
+import "./ForecastInfo.css";
 
 export default function ForecastInfo(props) {
   return (
