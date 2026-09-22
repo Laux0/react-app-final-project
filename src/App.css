@@ -1,0 +1,11 @@
+.App {
+  font-family: Arial, Helvetica, sans-serif;
+  padding: 16px;
+  max-width: 800px;
+  margin: 30px auto;
+}
+
+.App footer {
+  margin-top: 10px;
+  font-size: 14px;
+}

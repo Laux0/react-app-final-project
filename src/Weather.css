@@ -1,3 +1,25 @@
 .Weather {
   border: 1px solid black;
+  padding: 16px;
+}
+
+.Weather form {
+  margin-bottom: 20px;
+}
+
+.Forecast {
+  color: gray;
+}
+
+.Forecast ul {
+  margin: 0;
+  padding: 0;
+}
+
+.Forecast li {
+  list-style: none;
+}
+
+.Forecast .main-temperature {
+  font-weight: bold;
 }
