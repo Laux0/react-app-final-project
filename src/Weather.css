@@ -20,6 +20,20 @@
   list-style: none;
 }
 
+.Forecast .today-icon {
+  height: 64px;
+  display: inline-flex;
+  margin-bottom: 30px;
+  margin-top: 13px;
+}
+
 .Forecast .main-temperature {
   font-weight: bold;
+  font-size: 48px;
+}
+
+.Forecast .unit {
+  font-size: 28px;
+  position: relative;
+  top: -10px;
 }
