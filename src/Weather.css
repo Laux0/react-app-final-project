@@ -6,38 +6,3 @@
 .Weather form {
   margin-bottom: 20px;
 }
-
-.Forecast {
-  color: gray;
-}
-
-.Forecast h1 {
-  font-weight: bold;
-}
-
-.Forecast ul {
-  margin: 0;
-  padding: 0;
-}
-
-.Forecast li {
-  list-style: none;
-}
-
-.Forecast .today-icon {
-  height: 64px;
-  display: inline-flex;
-  margin-bottom: 30px;
-  margin-top: 12px;
-}
-
-.Forecast .main-temperature {
-  font-weight: bold;
-  font-size: 48px;
-}
-
-.Forecast .unit {
-  font-size: 28px;
-  position: relative;
-  top: -10px;
-}
