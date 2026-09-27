@@ -1,0 +1,20 @@
+.WeeklyForecast {
+  text-align: center;
+}
+
+.Forecast-day {
+  font-weight: 600;
+}
+
+.Forecast-icon {
+  height: 54px;
+  display: inline-flex;
+}
+
+.Forecast-max-temperature {
+  font-weight: 400;
+}
+
+.Forecast-min-temperature {
+  opacity: 0.6;
+}
